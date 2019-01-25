@@ -1,7 +1,7 @@
 import numpy as np
 import sys
 sys.path.append('../example/')
-import algs
+from example import algs
 
 def test_pointless_sort():
     # generate random vector of length 10
